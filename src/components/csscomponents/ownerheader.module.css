@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+.logoutcontainer{
+    width: 236.98px;
+    height: 43px;
+    /* margin-top: 40px; */
+    margin-top: none;
+    margin-left: 1100px;
+ }
+ .ownerimg{
+   height:42px;
+   width:42px;
+   margin-top: 5px;
+   margin-left:5px;
+   border-radius: 40%; 
+   display: block;
+ }
+ .ownername{  
+    font-family: 'Nunito';
+    font-weight: 100; 
+    font-size: 5x;
+    margin-left:5px;
+    margin-right:15px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .hide{
+    display: none;
+  }
+
+  .mydiv:hover + .hide
+  {
+    display: block;
+    color: #000;
+  }
+
+  .logoutcontainer button{
+    cursor: pointer;
+    border: none;
+    background-color: aliceblue;
+  }

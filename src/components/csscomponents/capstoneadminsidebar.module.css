@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+.sidenav {
+    height: 900px;
+    width: 218px;
+    position:fixed;
+    z-index: 1;
+    top: 1;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+  }
+  .logoimg{
+    height:42px;
+    width:42px;
+    margin-top: 50px;
+    margin-left:15px;
+    border-radius: 50%;
+    border: 1px solid #000000;  
+    display: block;
+    /* box-shadow: 1px 1px 1px 1px #1f1e1e; */
+}
+  .sidenavheader {
+    width: 62px;
+    height: 30px;
+    margin-top: 54px;
+    margin-left: 14px;
+    /* margin-left: 110px; */
+    font-size: 24px;
+    font-weight: 600;
+    color: #030229;
+    display: block;
+    font-family:'Nunito';
+    /* line-height: 32.74px; */
+  }
+ 
+  .sidenavmenuitem1 {
+    width: 80px;
+    height: 22px;
+    margin-top:80px;
+    margin-left:10px;
+    opacity: 50%;
+    font-size: 16px;
+    color:#030229;
+    display: block;
+    font-family:'Nunito';
+    cursor: pointer;
+  }
+  .sidenavmenuitem1:active  {
+    color:#605BFF;
+  }
+
+  .sidenavmenuitem1:hover{
+    color:#605BFF;
+    opacity: 100%;
+  }
+ 
+  .sidenavmenuitem2 {
+    height: 22px;
+    margin-top:40px;
+    margin-left:10px;
+    font-size: 16px;
+    color:#030229;
+    display: block;
+    font-family:'Nunito';
+    cursor: pointer;
+  }
+  .sidenavmenuitem2:active{
+    color:#241dee;
+  }
+
+  .sidenavmenuitem2:hover{
+    color:#241dee;
+    opacity: 100%;
+  }
+
+  .sidenavmenuitem2:focus{
+    color:#241dee;
+    opacity: 100%;
+  }
+
